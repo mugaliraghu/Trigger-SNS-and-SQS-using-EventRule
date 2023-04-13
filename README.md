@@ -1,0 +1,1 @@
+# Trigger-SNS-and-SQS-using-EventRule
