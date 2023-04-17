@@ -117,3 +117,6 @@ sam deploy --guided
 ```
 after that it will create resource that you added in template.yaml file like creating SNS topic,SNS Subscription, SQS queue, Eventrule and required policies as shown in below image.
 ![Sam deploy1](https://user-images.githubusercontent.com/120295902/232377975-9dc604bf-9cc1-4b2f-af0f-84222a0e1b15.png)
+
+if you go inside the aws management console cloudformation you can cross verify the resources that has been created.
+![Screenshot (26)](https://user-images.githubusercontent.com/120295902/232379994-bfe49fdf-6527-450f-a75b-d0500de08657.png)
