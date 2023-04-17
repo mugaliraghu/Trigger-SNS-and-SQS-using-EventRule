@@ -125,7 +125,7 @@ if you go inside the aws management console cloudformation you can cross verify 
 in this i created a eventrule that if is there any changes in the instance state i need to get a notification. i have been added a two targets here one is SNS with subscription as a my mail and another SQS queue.
 How i will get the notification as shown in below images.
 
-# The screenshorts that i got a notification form SNS topic and Email subscription.
+### The screenshorts that i got a notification form SNS topic and Email subscription.
 ![Screenshot (28)](https://user-images.githubusercontent.com/120295902/232382197-761c170a-aed5-4af0-b4b2-6cfe8f4bbd97.png)
 
 ![Screenshot (32)](https://user-images.githubusercontent.com/120295902/232382345-afc8426a-4de6-43ff-a60d-47c503fbae0c.png)
