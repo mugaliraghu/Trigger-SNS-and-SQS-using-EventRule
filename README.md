@@ -108,10 +108,12 @@ after that navigate to the file where  template.yaml file is presenet and do
 ```
 sam build
 ```
+after doing sam build you will get output as shown in below image.
 ![sam build1](https://user-images.githubusercontent.com/120295902/232377034-60c738eb-be1d-406e-b6ff-dfe0236e632a.png)
 
-In the next step use this below command to deploy the application on aws
+In the next step use this below command to deploy the application on aws,while giving this command it asks some information like name of the cloudformation stack, region, IAM role creation etc.
 ```
 sam deploy --guided
 ```
+after that it will create resource that you added in template.yaml file like creating SNS topic,SNS Subscription, SQS queue, Eventrule and required policies as shown in below image.
 ![Sam deploy1](https://user-images.githubusercontent.com/120295902/232377975-9dc604bf-9cc1-4b2f-af0f-84222a0e1b15.png)
