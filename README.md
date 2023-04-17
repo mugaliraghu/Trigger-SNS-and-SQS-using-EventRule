@@ -133,3 +133,9 @@ How i will get the notification as shown in below images.
 ![Screenshot (30)](https://user-images.githubusercontent.com/120295902/232382754-bfc0a90a-f4a4-4ef1-95c8-9ceb646f907d.png)
 
 ![Screenshot (29)](https://user-images.githubusercontent.com/120295902/232382572-6ea99cba-610c-4368-a24c-b7fc8bc80640.png)
+
+if you wnat to delete the cloudformation stack, use the below command
+
+```t
+sam delete <name of the stack>
+```
