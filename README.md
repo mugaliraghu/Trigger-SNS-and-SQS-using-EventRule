@@ -129,6 +129,6 @@ How i will get the notification as shown in below images.
 
 ![Screenshot (32)](https://user-images.githubusercontent.com/120295902/232382345-afc8426a-4de6-43ff-a60d-47c503fbae0c.png)
 
-![Screenshot (30)](https://user-images.githubusercontent.com/120295902/232382524-87640ffa-b937-4877-96ab-f01b648d54f8.png)
+![Screenshot (30)](https://user-images.githubusercontent.com/120295902/232382754-bfc0a90a-f4a4-4ef1-95c8-9ceb646f907d.png)
 
 ![Screenshot (29)](https://user-images.githubusercontent.com/120295902/232382572-6ea99cba-610c-4368-a24c-b7fc8bc80640.png)
