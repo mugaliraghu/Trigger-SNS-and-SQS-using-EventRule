@@ -1,5 +1,8 @@
 # Trigger-SNS-and-SQS-using-EventRule
-
+## Prerequisites
+  1. install aws cli and configure it using access key and secret key id.
+  2. install SAM cli.
+  
 ## What it is?
 This template creates several resources, including an SNS topic, an SQS queue, and an EventBridge rule 
 that filters for certain events and sends those events to the SNS topic and SQS queue. The resources are defined 
