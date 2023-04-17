@@ -1,5 +1,26 @@
 # Trigger-SNS-and-SQS-using-EventRule
 
+## what it is?
+This template creates several resources, including an SNS topic, an SQS queue, and an EventBridge rule 
+that filters for certain events and sends those events to the SNS topic and SQS queue. The resources are defined 
+using the AWS Serverless Application Model (SAM) specification, which is an extension of CloudFormation that simplifies 
+the process of building serverless applications on AWS.
+
+## Where it is useful?
+This CloudFormation template is useful for creating a serverless application on AWS that uses EventBridge to filter and route events to 
+an SNS topic and an SQS queue. 
+
+SNS (Simple Notification Service) is a fully managed messaging service provided by AWS that enables the publishing and subscribing of messages 
+from various services or systems. 
+SQS (Simple Queue Service) is a fully managed message queuing service that enables decoupling and scaling of microservices, 
+distributed systems, and serverless applications. 
+EventBridge is a serverless event bus that can be used to integrate AWS services, SaaS applications, and custom applications.
+
+Using this template, you can define an EventBridge rule that filters for certain events and sends those events to an SNS topic and an SQS queue. 
+The SNS topic can be used to send notifications to subscribers via email, SMS, or other protocols, while the SQS queue can be used to store
+ and process the messages asynchronously. This can be useful for building real-time monitoring and alerting systems, as well as decoupled and 
+ scalable serverless architectures.
+
 ### This CloudFormation template creates an EventBridge rule that filters for EC2 instance state-change notifications and sends the filtered events to an SNS topic and an SQS queue. The SNS topic has a subscription for email notifications.
 
 ```t
