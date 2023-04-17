@@ -120,3 +120,15 @@ after that it will create resource that you added in template.yaml file like cre
 
 if you go inside the aws management console cloudformation you can cross verify the resources that has been created.
 ![Screenshot (26)](https://user-images.githubusercontent.com/120295902/232379994-bfe49fdf-6527-450f-a75b-d0500de08657.png)
+
+## validation steps
+in this i created a eventrule that if is there any changes in the instance state i need to get a notification. i have been added a two targets here one is SNS with subscription as a my mail and another SQS queue.
+How i will get the notification as shown in below images.
+
+![Screenshot (28)](https://user-images.githubusercontent.com/120295902/232382197-761c170a-aed5-4af0-b4b2-6cfe8f4bbd97.png)
+
+![Screenshot (32)](https://user-images.githubusercontent.com/120295902/232382345-afc8426a-4de6-43ff-a60d-47c503fbae0c.png)
+
+![Screenshot (30)](https://user-images.githubusercontent.com/120295902/232382524-87640ffa-b937-4877-96ab-f01b648d54f8.png)
+
+![Screenshot (29)](https://user-images.githubusercontent.com/120295902/232382572-6ea99cba-610c-4368-a24c-b7fc8bc80640.png)
