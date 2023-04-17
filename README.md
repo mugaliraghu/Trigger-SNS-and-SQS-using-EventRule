@@ -108,8 +108,11 @@ after that navigate to the file where  template.yaml file is presenet and do
 ```
 sam build
 ```
+![sam build1](https://user-images.githubusercontent.com/120295902/232377034-60c738eb-be1d-406e-b6ff-dfe0236e632a.png)
 
 In the next step use this below command to deploy the application on aws
 ```
 sam deploy --guided
 ```
+![sam config](https://user-images.githubusercontent.com/120295902/232377240-bdc1965f-3615-4aff-baa0-284cc93f4730.png)
+![Sam deploy1](https://user-images.githubusercontent.com/120295902/232377298-2a3fbeb8-2e0f-4f0c-8838-72b927d4614d.png)
