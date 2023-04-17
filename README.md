@@ -24,7 +24,7 @@ The SNS topic can be used to send notifications to subscribers via email, SMS, o
  and process the messages asynchronously. This can be useful for building real-time monitoring and alerting systems, as well as decoupled and 
  scalable serverless architectures.
 
-### This CloudFormation template creates an EventBridge rule that filters for EC2 instance state-change notifications and sends the filtered events to an SNS topic and an SQS queue. The SNS topic has a subscription for email notifications.
+ This CloudFormation template creates an EventBridge rule that filters for EC2 instance state-change notifications and sends the filtered events to an SNS topic and an SQS queue. The SNS topic has a subscription for email notifications.
 
 
 navigate to the file where  template.yaml file is presenet and do
