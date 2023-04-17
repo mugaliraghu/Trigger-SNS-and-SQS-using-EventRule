@@ -1,6 +1,6 @@
 # Trigger-SNS-and-SQS-using-EventRule
 
-## what it is?
+## What it is?
 This template creates several resources, including an SNS topic, an SQS queue, and an EventBridge rule 
 that filters for certain events and sends those events to the SNS topic and SQS queue. The resources are defined 
 using the AWS Serverless Application Model (SAM) specification, which is an extension of CloudFormation that simplifies 
