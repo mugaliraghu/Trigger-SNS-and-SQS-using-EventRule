@@ -45,18 +45,29 @@ if you go inside the aws management console cloudformation you can cross verify 
 in this i created a eventrule that if is there any changes in the instance state i need to get a notification. i have been added a two targets here one is SNS with subscription as a my mail and another SQS queue.
 How i will get the notification as shown in below images.
 ### The image it is in stopped state
+
 <img width="842" alt="instance_stopped state" src="https://user-images.githubusercontent.com/120295902/232736384-cd47ba2d-4f33-4bc9-b4f9-3bd886d8f569.png">
 
+Now i am going to start this instance manually, then the notification in got as shown below
+
 ### The screenshorts that i got a notification form SNS topic and Email subscription.
+it shows its changing state from stopped to pending.
+
 ![Screenshot (28)](https://user-images.githubusercontent.com/120295902/232382197-761c170a-aed5-4af0-b4b2-6cfe8f4bbd97.png)
 
+it shows its changing state from pending to running.
+
 ![Screenshot (32)](https://user-images.githubusercontent.com/120295902/232382345-afc8426a-4de6-43ff-a60d-47c503fbae0c.png)
+
 ### The screenshorts that i got form SQS queue.
+
+it shows its changing state from stopped to pending.
+
 ![Screenshot (30)](https://user-images.githubusercontent.com/120295902/232382754-bfc0a90a-f4a4-4ef1-95c8-9ceb646f907d.png)
 
-![Screenshot (29)](https://user-images.githubusercontent.com/120295902/232382572-6ea99cba-610c-4368-a24c-b7fc8bc80640.png)
+it shows its changing state from pending to running.
 
-if you wnat to delete the cloudformation stack, use the below command
+![Screenshot (29)](https://user-images.githubusercontent.com/120295902/232382572-6ea99cba-610c-4368-a24c-b7fc8bc80640.png)
 
 ```t
 sam delete <name of the stack>
