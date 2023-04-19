@@ -5,6 +5,7 @@
 
 ## Architecture of task
 <img width="1012" alt="task2" src="https://user-images.githubusercontent.com/120295902/232983434-657ec658-3f0c-41c6-befc-bca46e4bc8ce.png">
+
 ## Objective
 
 This template creates several resources, including an SNS topic, an SQS queue, and an EventBridge rule 
