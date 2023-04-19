@@ -22,10 +22,7 @@ SQS (Simple Queue Service) is a fully managed message queuing service that enabl
 distributed systems, and serverless applications. 
 EventBridge is a serverless event bus that can be used to integrate AWS services, SaaS applications, and custom applications.
 
-Using this template, you can define an EventBridge rule that filters for certain events and sends those events to an SNS topic and an SQS queue. 
-The SNS topic can be used to send notifications to subscribers via email, SMS, or other protocols, while the SQS queue can be used to store
- and process the messages asynchronously. This can be useful for building real-time monitoring and alerting systems, as well as decoupled and 
- scalable serverless architectures.
+The aim of the application is, When an EC2 instance state changes, AWS EventBridge sends a notification message to the EventRule defined in the CloudFormation template. The EventRule filters the events based on source and detail-type, and sends the notification message to two targets - the SNS topic and the SQS queue.
 
 navigate to the file where  template.yaml file is presenet and do
 ```
